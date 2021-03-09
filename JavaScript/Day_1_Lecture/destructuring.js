@@ -51,3 +51,24 @@ var y = 10;
 var z = 15;
 
 [y, z] = [z, y]
+
+
+
+
+const lastTest = {
+    key: 'value',
+    secondKey: [1, 5, 1, 8, 3, 3]
+}
+const thirdTest = {
+    key: 'value2',
+    secondKey: [5,4,3,2,1]
+}
+const { key } = lastTest;
+const { secondKey } = lastTest;
+console.log(secondKey)
+const [ ,willThisWork] = secondKey;
+//Predict the output
+console.log(key);
+console.log(secondKey);
+console.log(secondKey[0]);
+console.log(willThisWork);
