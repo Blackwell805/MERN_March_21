@@ -1,6 +1,7 @@
 import React from 'react'
 
 const MyHeader = () => {
+    document.title = "Some shit";
     return (
         <header>
             <h1>Welcome to my page</h1>
@@ -10,4 +11,3 @@ const MyHeader = () => {
 }
 
 export default MyHeader
-
